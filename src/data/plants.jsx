@@ -1,0 +1,103 @@
+import {
+  fiddleleaffig,
+  snakeplant,
+  pothos,
+  peacelily,
+  spiderplant,
+  aloevera,
+  babytears,
+  anthurium,
+  jade,
+  monsteradeliciosa,
+  rubberplant,
+  stringofpearls,
+} from '../assets/imgs';
+
+const plants = [
+  {
+    id: 1,
+    name: 'Fiddle Leaf Fig',
+    price: 30,
+    category: 'Large Plants',
+    image: fiddleleaffig,
+  },
+  {
+    id: 2,
+    name: 'Snake Plant',
+    price: 20,
+    category: 'Medium Plants',
+    image: snakeplant,
+  },
+  {
+    id: 3,
+    name: 'Pothos',
+    price: 15,
+    category: 'Hanging Plants',
+    image: pothos,
+  },
+  {
+    id: 4,
+    name: 'Peace Lily',
+    price: 25,
+    category: 'Flowering Plants',
+    image: peacelily,
+  },
+  {
+    id: 5,
+    name: 'Spider Plant',
+    price: 18,
+    category: 'Small Plants',
+    image: spiderplant,
+  },
+  {
+    id: 6,
+    name: 'Aloe Vera',
+    price: 22,
+    category: 'Succulents',
+    image: aloevera,
+  },
+  {
+    id: 7,
+    name: 'Monstera Deliciosa',
+    price: 35,
+    category: 'Large Plants',
+    image: monsteradeliciosa,
+  },
+  {
+    id: 8,
+    name: 'Rubber Plant',
+    price: 28,
+    category: 'Medium Plants',
+    image: rubberplant,
+  },
+  {
+    id: 9,
+    name: 'String of Pearls',
+    price: 18,
+    category: 'Hanging Plants',
+    image: stringofpearls,
+  },
+  {
+    id: 10,
+    name: 'Anthurium',
+    price: 32,
+    category: 'Flowering Plants',
+    image: anthurium,
+  },
+  {
+    id: 11,
+    name: 'Baby Tears',
+    price: 12,
+    category: 'Small Plants',
+    image: babytears,
+  },
+  {
+    id: 12,
+    name: 'Jade Plant',
+    price: 20,
+    category: 'Succulents',
+    image: jade,
+  },
+];
+
+export default plants;
