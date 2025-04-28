@@ -8,7 +8,7 @@ import CartPage from './pages/CartPage';
 export default function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/paradise-nursery">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/products" element={<ProductPage />} />
