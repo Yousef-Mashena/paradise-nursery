@@ -8,8 +8,11 @@ export default function Header() {
 
   return (
     <header className="header">
-      <Link to="/products" className="header-link">
+      <Link to="/" className="header-link">
         Paradise Nursery
+      </Link>
+      <Link to="/products" className="header-link">
+        Plants
       </Link>
       <Link to="/cart" className="cart-icon">
         <FaShoppingCart size={24} />
