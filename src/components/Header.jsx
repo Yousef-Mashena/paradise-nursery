@@ -12,7 +12,7 @@ export default function Header() {
         Paradise Nursery
       </Link>
       <Link to="/products" className="header-link">
-        Plants
+        Products
       </Link>
       <Link to="/cart" className="cart-icon">
         <FaShoppingCart size={24} />
